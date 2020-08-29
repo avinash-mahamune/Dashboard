@@ -1,0 +1,31 @@
+
+.topbar{
+    height: 80px;
+    background-color: peru;
+
+
+    .logo{
+        img{
+            width: 100px;
+            height: auto;
+        }
+    }
+}
+
+.profile-section{
+    display: flex;
+    justify-content: flex-end;
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        height: 80px;
+        align-items: center;
+        li{
+            background-color: red;
+            padding: 15px;
+            margin: 0 15px;
+        }
+    }
+}
